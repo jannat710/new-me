@@ -6,7 +6,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+/* banner section created */
 .banner-section {
     height: 100vh;
     width: 100%;
@@ -15,7 +15,6 @@ body {
     background-size: cover;
     background-image: url('images/banner/banner3.png');
 }
-/* banner section created */
 .banner-title {
     padding: 200px 300px 350px 1100px;
     text-align: right;
@@ -43,5 +42,82 @@ color: #005FAC;
 text-align: center;
 font-size: 30px;
 font-weight: 600;
+border: none;
+cursor: pointer;
 }
-/* body */
+
+.failures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+    padding: 150px 250px;
+    
+}
+.failures-info{
+    height: auto;
+   width: auto;
+}
+.f-photo{
+    height: 700px;
+    width: 700px;
+}
+.title{
+    width: 280px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.description{
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.list-design{
+    list-style: disc;
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.plans-title{
+    text-align: center;
+    font-size: 40px;
+}
+.plan{
+    padding: 30px; 
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.plan-description{
+    color: #757575;
+}
+.mindset {
+    padding: 130px 230px;
+    border-radius: 8px;
+    background-image:url('images/watch.png'), url('images/gradient1.png');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.mindset-title{
+    padding-left: 300px;
+}
+.mind-text{
+    color: #FFF;
+    width: 459px;
+font-size: 35px;
+font-weight: 700;
+}
