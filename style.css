@@ -6,6 +6,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* banner section created */
 .banner-section {
     height: 100vh;
@@ -16,6 +17,7 @@ body {
     background-size: cover;
     background-image: url('images/banner/banner3.png');
 }
+
 .banner-title {
     width: 30%;
     padding-top: 110px;
@@ -30,101 +32,119 @@ body {
     font-weight: 700;
     margin-bottom: 25px;
 }
-.banner-description{
+
+.banner-description {
     margin-top: 0;
     color: #FFF;
     font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-}
-.btn{
-    margin-top: 20px;
-    border-radius: 5px ;
-background: #FFF;
-color: #005FAC;
-text-align: center;
-font-size: 30px;
-font-weight: 600;
-border: none;
-cursor: pointer;
+    font-weight: 400;
+    line-height: 26px;
 }
 
-.failures{
+.btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.failures {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
     padding: 10px;
     padding: 150px 250px;
-    
+
 }
-.failures-info{
+
+.failures-info {
     height: auto;
-   width: auto;
+    width: auto;
 }
-.f-photo{
+
+.f-photo {
     height: 700px;
     width: 700px;
 }
-.title{
+
+.title {
     width: 280px;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
-.description{
+
+.description {
     color: #444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
-.list-design{
+
+.list-design {
     list-style: disc;
     color: #444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 
 }
-.plan-container{
+
+.plan-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     text-align: center;
 }
-.plans-title{
+
+.plans-title {
     text-align: center;
     font-size: 40px;
 }
-.plan{
-    padding: 30px; 
+
+.plan {
+    padding: 30px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.plan-description{
+
+.plan-description {
     color: #757575;
 }
+
 .mindset {
     padding: 130px 230px;
     border-radius: 8px;
-    background-image:url('images/watch.png'), url('images/gradient1.png');
+    background-image: url('images/watch.png'), url('images/gradient1.png');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
+    width: 80%;
+    margin: auto;
+
 
 }
-.mindset-title{
+
+.mindset-title {
     padding-left: 300px;
 }
-.mind-text{
+
+.mind-text {
     color: #FFF;
     width: 459px;
-font-size: 35px;
-font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
 }
-.last-part{
+
+.last-part {
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -132,36 +152,41 @@ font-weight: 700;
     background-color: #151414;
     height: auto;
 }
-.btn2{
-    border-radius: 5px ;
-background: #005FAC;
-color: #FFF;
-text-align: center;
-font-size: 30px;
-font-weight: 600;
-border: none;
-cursor: pointer;
-margin-top: 15px;
-}
-.foot-h{
-    color: #F8F8F8;
-font-size: 45px;
-font-weight: 700;
-}
-.foot-h2{
-    color: #F8F8F8;
-font-size: 35px;
-font-weight: 700;
-margin-bottom: 30px;
-}
-.foot-text{
+
+.btn2 {
+    border-radius: 5px;
+    background: #005FAC;
     color: #FFF;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-width: 485px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
 }
-input{
+
+.foot-h {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.foot-h2 {
+    color: #F8F8F8;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.foot-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+}
+
+input {
     background: var(--dark-01, #151414);
     border: 1px solid white;
     width: 325px;
