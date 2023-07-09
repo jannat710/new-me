@@ -13,12 +13,13 @@ body {
     display: flex;
     justify-content: end;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     background-image: url('images/banner/banner3.png');
 }
 .banner-title {
-    padding: 200px 300px 350px 1100px;
+    width: 30%;
+    padding-top: 110px;
+    padding-right: 230px;
     text-align: right;
 }
 
