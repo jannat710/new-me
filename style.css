@@ -57,6 +57,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 70px;
     flex-direction: row-reverse;
     padding: 10px;
     padding: 150px 250px;
@@ -72,6 +73,10 @@ body {
     height: 700px;
     width: 700px;
 }
+ul{
+    list-style-type: none;
+}
+
 
 .title {
     width: 280px;
