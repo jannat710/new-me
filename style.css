@@ -193,4 +193,6 @@ input {
     height: 60px;
     color: #FFF;
     font-size: 18px;
+    text-align: left;
+    padding-left: 40px;
 }
